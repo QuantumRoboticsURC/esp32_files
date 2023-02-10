@@ -289,7 +289,7 @@ void loop(void)
     int estx = digitalRead(pinx);
     int esty = digitalRead(piny);
     int estz = digitalRead(pinz);
-    if (estz == 0 && esty == 0 && estx == 0                                                  ){
+    if (estz == 0 && esty == 0 && estx == 0){
        matrix.fillScreen(0);
        matrix.show();
     }
