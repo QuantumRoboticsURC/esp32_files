@@ -18,6 +18,8 @@ On your personal computer connect to the network called **QR_ESP32_Wifi**
 the password for such network is **quantum_main_root**, then on your 
 prefered browser type the IP address **192.168.1.1**. A login prompt will
 appear, use the credentials:
-    - user: admin
-    - password: admin
+
+- user: admin
+- password: admin
+
 Then, just use the browser UI to upload your new code :D
