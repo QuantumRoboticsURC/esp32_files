@@ -8,19 +8,9 @@ following tags:
         ...
         _______________________ END OF YOUR CODE LIBRARIES _______________________
 
-        _______________________ YOUR CODE CONSTANTS _______________________
-        ...
-        _______________________ END OF YOUR CODE CONSTANTS _______________________
-
-        _______________________ YOUR CODE SETUP _______________________
-        ...
-        _______________________ END OF YOUR CODE SETUP _______________________
-        
         _______________________ YOUR CODE _______________________
         ...
         _______________________ END OF YOUR CODE _______________________
-
-        
 */
 
 #include <WiFi.h>
@@ -33,13 +23,7 @@ following tags:
 
 // #include <someNewLibrary.h>
 
-// _______________________ END OF YOUR CODE LIBRARIES _______________________
-
-
-// _______________________ YOUR CODE CONSTANTS _______________________
-// # define some_constant
-// # const int some_global_var
-// _______________________ END OF YOUR CODE CONSTANTS _______________________
+//_______________________ END OF YOUR CODE LIBRARIES _______________________
 
 const char *host = "esp32";
 const char *ssid = "QR_ESP32_Wifi";
@@ -157,8 +141,8 @@ String serverIndex =
 
 void onJavaScript(void) {
     Serial.println("onJavaScript(void)");
-		server.setContentLength(jquery_min_js_v3_2_1_gz_len);
-		server.sendHeader(F("Content-Encoding"), F("gzip"));
+    server.setContentLength(jquery_min_js_v3_2_1_gz_len);
+    server.sendHeader(F("Content-Encoding"), F("gzip"));
     server.send_P(200, "text/javascript", jquery_min_js_v3_2_1_gz, jquery_min_js_v3_2_1_gz_len);
 }
 
@@ -242,10 +226,6 @@ void setup(void)
             }
         });
     server.begin();
-
-    // _______________________ YOUR CODE SETUP _______________________
-    //    ...
-    // _______________________ END OF YOUR CODE SETUP _______________________
 }
 
 void loop(void)
