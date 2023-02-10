@@ -305,21 +305,15 @@ void loop(void)
     else if (estz == 0 && esty == 1 && estx == 1){
       matrix.fillScreen(colors[1]);
       matrix.show();
-      delay(1000);
+      delay(500);
       matrix.fillScreen(0);
       matrix.show();
-      delay(1000);
+      delay(500);
     }
     else if (estz == 1 && esty == 0 && estx == 0){
-    matrix.fillScreen(0);
-    matrix.setCursor(x, 0);
-    matrix.print(F("Q"));
-    matrix.setRotation(1);
-    if(--x < -96) {
-      x = matrix.width();
-    }
-    matrix.show();
-    delay(250);
+      matrix.drawRoundRect(1, 1, 6, 6, 2, colors[2]);
+      matrix.drawLine(5, 4, 7, 6, colors[2]);      
+      matrix.show();
     }
     else{
       matrix.fillScreen(0);
