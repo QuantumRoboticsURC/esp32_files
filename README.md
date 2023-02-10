@@ -16,7 +16,7 @@ Therefore **you should always use the OTA template when you upload**
 
 On your personal computer connect to the network called **QR_ESP32_Wifi**
 the password for such network is **quantum_main_root**, then on your 
-prefered browser type the IP address **192.168.1.1**. A login prompt will
+prefered browser type the IP address **1.1.1.1**. A login prompt will
 appear, use the credentials:
 
 - user: admin
