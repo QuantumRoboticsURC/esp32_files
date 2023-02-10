@@ -244,7 +244,8 @@ void setup(void)
     server.begin();
 
     // _______________________ YOUR CODE SETUP _______________________
-    //    ...
+    //  pinMode(some_pin, INPUT);
+    //  something.begin()
     // _______________________ END OF YOUR CODE SETUP _______________________
 }
 
