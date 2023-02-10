@@ -1,6 +1,6 @@
 /* _______________________ ARDUINO OTA TEMPLATE _______________________
-This code contains a template to keep the wireless code upload functionality 
-on the esp32 board.
+This code contains a template to keep the wireless code upload on QR
+esp32 board.
 
 Please avoid modifying any other part of the code that is not enclosed on the
 following tags: 

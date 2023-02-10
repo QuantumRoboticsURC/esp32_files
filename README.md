@@ -22,4 +22,4 @@ appear, use the credentials:
 - user: admin
 - password: admin
 
-Then, just use the browser UI to upload your new code :D
+Then, just use the browser UI to upload your new code 😀
